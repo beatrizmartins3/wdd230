@@ -8,78 +8,66 @@ header {
     align-items : center;
     justify-content : center;
     padding : 20px;
-    border : 1px solid #000042;
+    border : #000042 solid 1px;
     max-width : 1500px;
     font-family : "Playfair Display";
-}
+    }
 nav {
-    list-style-type: none;
-    justify-content: space-around;
-    background-color: #a3b6a2;
-    display: grid;
-    grid-column: 1fr;
-    grid-template-rows: 1/5;
-    text-align: center;
+    list-style-type : none;
+    justify-content : space-around;
+    background-color : #a3b6a2;
+    display : grid;
+    text-align : center;
 }
-  
-
 nav a {
-    
-    color: #fffaac;
-    font-family: "Raleway";
-    text-decoration: none;
-}
-
-main{
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-gap: 1rem;
-    background-color: #b2ccaf;
-    margin: 1rem auto;
-    padding: 1rem;
+    color : #fffaac;
+    font-family : "Raleway";
+    text-decoration : none;
+    }
+main {
+    display : grid;
+    grid-template-columns : 2fr;
+    gap : 1rem;
+    background-color : #b2ccaf;
+    margin : 1rem auto;
+    padding : 1rem;
     width : 70%;
     font-family : "Playfair Display";
-    
-    
-    
 }
-h2{
-    text-align: center;
-    font-family: "Playfair Display";
+h2 {
+    text-align : center;
+    font-family : "Playfair Display";
 }
-h3{
-    background-color: #ffffff;
-    color: #fffaac;
-    text-align: center;
-    font-family: "Raleway";
+h3 {
+    background-color : #ffffff;
+    color : #fffaac;
+    text-align : center;
+    font-family : "Raleway";
     background-color : #5c627a;
-}
-footer{
-    max-width: 1500px;
-    font-family: "Playfair Display";
-    background-color: #404467;
-    color:#fffaac;
-    
-    
+    }
+footer {
+    max-width : 1500px;
+    font-family : "Playfair Display";
+    background-color : #404467;
+    color : #fffaac;
 }
 body {
-    display: block;
-    margin: 8px;
-    font-size: 10px;
+    display : block;
+    margin : 8px;
+    font-size : 10px;
 }
-section{
-    padding: 1rem;
-    background-color: #fff;
+section {
+    padding : 1rem;
+    background-color : #fff;
 }
-
 img {
     width : 100px;
     padding : 20px;
 }
 nav a:hover {
     background-color : #5c627a;
-    border : 1px solid #ffffff;
+    border : #ffffff solid 1px;
 }
-p{
-    text-align: center;
+p {
+    text-align : center;
 }
