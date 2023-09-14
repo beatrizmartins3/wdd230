@@ -17,13 +17,14 @@ nav {
     justify-content: space-around;
     background-color: #a3b6a2;
     display: grid;
+    grid-column: 1fr;
     grid-template-rows: 1/5;
+    text-align: center;
 }
   
 
 nav a {
-    width: 100%;
-    text-align: center;
+    
     color: #fffaac;
     font-family: "Raleway";
     text-decoration: none;
