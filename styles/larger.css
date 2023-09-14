@@ -23,7 +23,7 @@
     }
     nav a:hover {
         background-color : #5c627a;
-        border : #ffffff solid 1px;
+        border : 1px solid #ffffff;
     }
     main {
         grid-template-columns : 2fr 2fr;
