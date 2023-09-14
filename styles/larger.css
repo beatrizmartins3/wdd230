@@ -16,10 +16,12 @@
     color : #fffaac;
     display : flex;
     justify-content : space-around;
+    width: 100%;
     }
     nav a {
         display : inline;
         font-family : "Raleway";
+        
     }
     nav a:hover {
         background-color : #5c627a;
