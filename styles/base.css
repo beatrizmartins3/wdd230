@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:ital@1&display=swap');
+
+header,footer,main{
+    max-width: 640px;
+    align-items: center;
+    font-family: "Playfair Display";
+    border: 1px solid #000042;
+    
+    
+}
+nav {
+    list-style-type: none;
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: #a3b6a2;
+  }
+  
+
+nav a {
+    display: block;
+    width: 60px;
+    color: #fffaac;
+    font-family: "Raleway";
+  }
+
+main{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-gap: 1rem;
+    background-color: #b2ccaf;
+    margin: 1rem auto;
+    padding: 1rem;
+    
+    
+}
+h2{
+    text-align: center;
+    font-family: "Playfair Display";
+}
+h3{
+    background-color: #ffffff;
+    text-align: center;
+    font-family: "Raleway";
+}
+footer{
+    max-width: 1500px;
+    font-family: "Playfair Display";
+    background-color: #404467;
+    color:#fffaac;
+}
+body {
+    display: block;
+    margin: 8px;
+    font-size: 10px;
+}
+section{
+    padding: 1rem;
+    background-color: #fff;
+}

@@ -1,0 +1,64 @@
+@media (min-width: 640px) {
+    header {
+    background-color : #404467;
+    color : #ffffff;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    padding : 20px;
+    border : solid 1px;
+    max-width : 1500px;
+    font-family : "Playfair Display";
+    }
+    nav {
+    background-color : #a3b6a2;
+    margin : 0 auto;
+    color : #fffaac;
+    display : flex;
+    justify-content : space-around;
+    }
+    nav a {
+        display : inline;
+        font-family : "Raleway";
+    }
+    nav a:hover {
+        background-color : #5c627a;
+        border : #ffffff solid 1px;
+    }
+    main {
+        grid-template-columns : 2fr 2fr;
+        width : 100%;
+        background-color : #b2ccaf;
+        font-family : "Playfair Display";
+    }
+    h2 {
+        text-align : center;
+        font-family : "Playfair Display";
+    }
+    h3 {
+        background-color : #5c627a;
+        color : #ffffff;
+        text-align : center;
+        font-family : "Raleway";
+    }
+    img {
+        width : 100px;
+        padding : 20px;
+    }
+    footer {
+        max-width : 1500px;
+        text-align : center;
+        background-color : #404467;
+        color : #fffaac;
+        font-family : "Playfair Display";
+    }
+    body {
+        display : block;
+        margin : 8px;
+        font-size : 20px;
+    }
+    section {
+        padding : 1rem;
+        background-color : #fff;
+    }
+}
