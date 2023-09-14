@@ -27,7 +27,7 @@
     }
     main {
         grid-template-columns : 2fr 2fr;
-        width : 100%;
+        width : 90%;
         background-color : #b2ccaf;
         font-family : "Playfair Display";
     }
