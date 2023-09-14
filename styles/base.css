@@ -15,7 +15,8 @@ header {
 nav {
     list-style-type: none;
     justify-content: space-around;
-    width: 200px;
+    width: 100%;
+    text-align: center;
     background-color: #a3b6a2;
     display: grid;
     grid-template-rows: 1/5;
@@ -74,4 +75,8 @@ section{
 img {
     width : 100px;
     padding : 20px;
+}
+nav a:hover {
+    background-color : #5c627a;
+    border : 1px solid #ffffff;
 }
