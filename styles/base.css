@@ -13,15 +13,15 @@ header {
     font-family : "Playfair Display";
 }
 nav {
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    margin: 0 auto;
     background-color: #a3b6a2;
 }
   
 
 nav a {
-    text-align: center;
-    padding: 35px;
+    display: block;
+    padding: 10px;
     color: #fffaac;
     font-family: "Raleway";
 }
