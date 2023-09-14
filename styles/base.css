@@ -23,7 +23,7 @@ nav {
   
 
 nav a {
-    display: block;
+    display: inline-block;
     width: 60px;
     color: #fffaac;
     font-family: "Raleway";
@@ -76,5 +76,4 @@ img {
 }
 a{
     text-decoration: none;
-    display: inline-block;
 }
