@@ -85,6 +85,8 @@ p{
     color: #000;
 }
 
-img{
-    padding-left: 250px;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
