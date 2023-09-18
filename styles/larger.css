@@ -66,4 +66,7 @@
     a{
         text-decoration: none;
     }
+    li a{
+        color: #404467;
+    }
 }
