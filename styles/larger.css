@@ -13,7 +13,7 @@
     nav {
     background-color : #a3b6a2;
     margin : 0 auto;
-    color : #fffaac;
+    color : #ffd700;
     display : flex;
     justify-content : space-around;
     width: 100%;
@@ -51,7 +51,7 @@
         max-width : 1500px;
         text-align : center;
         background-color : #404467;
-        color : #fffaac;
+        color : #ffd700;
         font-family : "Playfair Display";
     }
     body {
