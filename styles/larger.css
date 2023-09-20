@@ -13,7 +13,7 @@
     nav {
     background-color : #a3b6a2;
     margin : 0 auto;
-    color : #ffd700;
+    color : #1E1536;
     display : flex;
     justify-content : space-around;
     width: 100%;
@@ -24,7 +24,7 @@
         
     }
     nav a:hover {
-        background-color : #5c627a;
+        background-color : #ffff00;
         border : 1px solid #ffffff;
     }
     main {
@@ -38,7 +38,7 @@
         font-family : "Playfair Display";
     }
     h3 {
-        background-color : #5c627a;
+        background-color : #1E1536;
         color : #ffffff;
         text-align : center;
         font-family : "Raleway";
@@ -51,7 +51,7 @@
         max-width : 1500px;
         text-align : center;
         background-color : #404467;
-        color : #ffd700;
+        color : #ffff00;
         font-family : "Playfair Display";
     }
     body {
