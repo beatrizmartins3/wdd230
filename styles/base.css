@@ -24,10 +24,10 @@
     }
     main {
         display : grid;
-        grid-column : 1fr;
+        grid-template-columns : 1fr;
         gap : 1rem;
         background-color : #b2ccaf;
-        margin : 1rem auto;
+        /*margin : 1rem auto;*/
         padding : 1rem;
         width : 70%;
         font-family : "Playfair Display";
