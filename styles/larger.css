@@ -1,5 +1,5 @@
-@media (min-width: 640px) {
-    header {
+
+header {
     background-color : #404467;
     color : #ffffff;
     display : flex;
@@ -9,64 +9,79 @@
     border : solid 1px;
     max-width : 1500px;
     font-family : "Playfair Display";
-    }
-    nav {
+}
+nav {
     background-color : #a3b6a2;
     margin : 0 auto;
     color : #1E1536;
     display : flex;
     justify-content : space-around;
     width: 100%;
-    }
-    nav a {
-        display : inline;
-        font-family : "Raleway";
+}
+nav a {
+    display : inline;
+    font-family : "Raleway";
+    color: #1E1536;
         
-    }
-    nav a:hover {
-        background-color : #ffff00;
-        border : 1px solid #ffffff;
-    }
-    main {
-        grid-template-columns : 2fr 2fr;
-        width : 90%;
-        background-color : #b2ccaf;
-        font-family : "Playfair Display";
-    }
-    h2 {
-        text-align : center;
-        font-family : "Playfair Display";
-    }
-    h3 {
-        background-color : #1E1536;
-        color : #ffffff;
-        text-align : center;
-        font-family : "Raleway";
-    }
-    img {
-        width : 100px;
-        padding : 20px;
-    }
-    footer {
-        max-width : 1500px;
-        text-align : center;
-        background-color : #404467;
-        color : #ffff00;
-        font-family : "Playfair Display";
-    }
-    body {
-        display : block;
-        margin : 8px;
-        font-size : 20px;
-    }
-    section {
-        padding : 1rem;
-        background-color : #fff;
-    }
-    a{
-        text-decoration: none;
-    }
-    li a{
-        color: #404467;
-    }
+}
+nav a:hover {
+    background-color : #ffff00;
+    border : 1px solid #ffffff;
+}
+main {
+    display: grid;
+    grid-template-columns : 2fr 2fr;
+    width : 90%;
+    background-color : #b2ccaf;
+    font-family : "Playfair Display";
+    gap : 1rem;
+    margin : 1rem auto;
+    padding : 1rem;
+    font-family : "Playfair Display";
+}
+h2 {
+    text-align : center;
+    font-family : "Playfair Display";
+}
+h3 {
+    background-color : #1E1536;
+    color : #ffffff;
+    text-align : center;
+    font-family : "Raleway";
+}
+img {
+    width : 100px;
+    padding : 20px;
+}
+footer {
+    max-width : 1500px;
+    text-align : center;
+    background-color : #404467;
+    color : #ffff00;
+    font-family : "Playfair Display";
+}
+body {
+    display : block;
+    margin : 8px;
+    font-size : 20px;
+}
+section {
+    padding : 1rem;
+    background-color : #fff;
+}
+a{
+    text-decoration: none;
+}
+li a{
+    color: #404467;
+}
+p {
+    text-align : center;
+}
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
 }
