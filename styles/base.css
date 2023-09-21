@@ -24,7 +24,7 @@
     }
     main {
         display : grid;
-        grid-template-columns : 1fr;
+        grid-column : 1fr;
         gap : 1rem;
         background-color : #b2ccaf;
         margin : 1rem auto;
