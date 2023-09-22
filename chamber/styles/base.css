@@ -85,9 +85,23 @@ main {
         /*margin : 1rem auto;*/
     font-family : "Playfair Display";
 }
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.logo{
+    width: 30%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    font-family: "Raleway";
 }
 h2 {
     text-align : center;
