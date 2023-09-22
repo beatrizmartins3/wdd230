@@ -5,7 +5,7 @@ theMod.textContent=mod;
 const menuBtn =
     document.querySelector(".btn");
 const menuNav =
-    document.querySelector(".nav");
+    document.querySelector(".nave");
 const menu =
     document.querySelector(".menu");
 
