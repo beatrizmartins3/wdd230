@@ -32,7 +32,7 @@ function toggleMenu() {
         navItems.forEach((item) =>
             item.classList.add("show"));
 
-        // Reset the menu state
+        
         showMenu = true;
     } else {
         menuBtn.classList.remove("close");
