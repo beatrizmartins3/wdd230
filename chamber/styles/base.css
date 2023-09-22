@@ -1,4 +1,5 @@
 @media screen and (max-width:640px){
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:ital@1&display=swap');
     .btn {
         position: absolute;
         z-index: 3;
@@ -11,7 +12,7 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: #000;
+        background: #ffffff;
         transition: all 0.5s ease-out;
         display: block;
     
@@ -54,4 +55,74 @@
     .item:nth-child(4) {
         transition-delay: 0.4s;
     }
+    header {
+        background-color : #404467;
+        color : #ffffff;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 20px;
+        border : #000042 solid 1px;
+        max-width : 1500px;
+        font-family : "Playfair Display";
+    }
+    nav {
+        list-style-type : none;
+        justify-content : space-around;
+        background-color : #a3b6a2;
+        display : grid;
+        text-align : center;
+    }
+    nav a {
+        color : #1E1536;
+        font-family : "Raleway";
+        text-decoration : none;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        background-color : #b2ccaf;
+        /*margin : 1rem auto;*/
+        font-family : "Playfair Display";
+    }
+    h1 {
+        font-size: 2em;
+        margin: 0.67em 0;
+    }
+    h2 {
+        text-align : center;
+        font-family : "Playfair Display";
+    }
+   
+    footer {
+        max-width : 1500px;
+        font-family : "Playfair Display";
+        background-color : #404467;
+        color : #ffff00;
+    }
+    body {
+        display : block;
+        margin : 8px;
+        font-size : 10px;
+    }
+    section {
+        padding : 1rem;
+        background-color : #fff;
+    }
+    img {
+        width : 100px;
+        padding : 20px;
+    }
+    nav a:hover {
+        background-color : #ffff00;
+        border : #ffffff solid 1px;
+    }
+    p {
+        text-align : center;
+    }
+    li a{
+        color: #404467;
+    }
+
 }
