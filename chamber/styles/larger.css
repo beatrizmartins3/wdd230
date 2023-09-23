@@ -1,11 +1,15 @@
-@media  (max-width:900px){
+@media only screen and (min-width: 768px){
     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:ital@1&display=swap');
 
-    header{
-        background-color: #000000;
-        color: #ffffff;
-    }
-    main{
-        grid-template-columns: 1fr 1fr;
+    header {
+        background-color : #404467;
+        color : #ffffff;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        padding : 20px;
+        border : solid 1px;
+        max-width : 1500px;
+        font-family : "Playfair Display";
     }
 }
