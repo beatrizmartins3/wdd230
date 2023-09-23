@@ -102,6 +102,7 @@ main {
 .join{
     background-color: #1E1536;
     color: #ffff00;
+    text-decoration: none;
 }
 h1 {
     font-size: 2em;
