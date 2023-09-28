@@ -75,6 +75,7 @@ h2 {
     font-family : "Playfair Display";
     grid-row: 9;
     color: #000;
+    position: relative;
 }
 h3 {
     color : #000;
