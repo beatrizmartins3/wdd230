@@ -33,7 +33,7 @@ main {
     padding: 0 10px;
 }
 .hero-img {
-    width: 1500px;
+    width: 90%;
     height: 300px;
     position: relative;
       
@@ -58,9 +58,11 @@ main {
     width: 120px;
 }
 #card{
+    grid-column: 1;
     grid-row: 7;
 }
 #card{
+    grid-column: 1;
     grid-row: 8;
 }
 h1 {
