@@ -40,7 +40,6 @@
     }
     
     .hero-txt {
-        width : 100px;
         background: radial-gradient(#404467, #1E1536);
         border: 1px solid rgba(0,0,0,.75);
         box-shadow: 0 0 3rem #000;
