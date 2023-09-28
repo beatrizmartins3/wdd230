@@ -22,7 +22,7 @@
         ☑️
     </div>
     <header>
-        <img src="images/my-photo.jpeg" alt="my photo" >
+        <img src="images/my-photo.webp" alt="my photo" >
         <h1>Beatriz Martins</h1>
         <div class="menu-btn">
             <div class="btn-line"></div>
@@ -37,17 +37,26 @@
             <a href="week01/chamber-site-plan.html" class="nav-item" >Site Plan</a>
             <a href="#" class="nav-item" >Form</a>
     
-    
-            
-       
         </nav>
     </nav>
     
-        
     
-    <h2>WDD 230: Web Frontend Development</h2>
     <main>
-        <section class="card">
+        <div class="hero-img" >
+    
+            <picture>
+                <div class="hero-txt">
+                    <p>Fortaleza Temple</p>
+                    
+                </div>
+                <source media="(max-width: 400px )" srcset="images/fortaleza.webp">
+                <source media="(max-width: 960px )" srcset="images/fortaleza.webp">
+                <img src="images/fortaleza.webp" alt="Fortaleza Temple" width="800" height="400">
+            </picture>
+        </div>
+        <h2>WDD 230: Web Frontend Development</h2>
+        
+        <section id="card">
             <h3>Learning Activities</h3>
             <ul>
                 <li>Week 01: <a href="week01/holygrail.html">Holygrail</a> | <a href="week01/media-query.html">Media Query</a> | <a href="week01/chamber-site-plan.html">Chamber Site Plan</a></li>
@@ -58,15 +67,14 @@
                 <li>Week 06: <a> </a></li>
             </ul>
         </section>
-        <section class="card">
+        <section id="card2">
             <h3>Information</h3>
             <p>[Place]</p>
             <p>[Weather]</p>
-            <p>[Page Visits:]</p>
+            <p><span >Page Visits: </span><span class="visits"></span></p>
         </section>
     </main>
-
-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.3758116886584!2d-42.74888842552829!3d-5.04266565126868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78e3b75f6cf9ef9%3A0xaa44d156851c2d69!2sR.%20Saturnino%20Rolins%20Morais%20-%20Vale%20Quem%20Tem%2C%20Teresina%20-%20PI%2C%2064057-217!5e0!3m2!1spt-BR!2sbr!4v1695928122701!5m2!1spt-BR!2sbr" width="1150" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>
         <p>&copy;<span id="year"></span> | Beatriz Martins | Brazil</p>
         <p>Last Modified:   <span id="lastModified"></span></p>
