@@ -1,4 +1,4 @@
-@media screen and (max-width:640px){
+
     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:ital@1&display=swap');
     header {
     background-color : #404467;
@@ -186,4 +186,3 @@
         font-size: 3rem;
         cursor: pointer;
     }
-}
