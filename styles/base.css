@@ -29,6 +29,8 @@
         background-color : #b2ccaf;
         /*margin : 1rem auto;*/
         font-family : "Playfair Display";
+        max-width: 100%;
+        padding: 0 10px;
     }
     .hero-img {
         width: 1500px;
@@ -39,7 +41,6 @@
     
     .hero-txt {
         width : 100px;
-        padding : 20px;
         background: radial-gradient(#404467, #1E1536);
         border: 1px solid rgba(0,0,0,.75);
         box-shadow: 0 0 3rem #000;
@@ -47,10 +48,11 @@
         position: absolute;
         margin: 0;
         font-weight: 600;
-        font-size: 1rem;
         font-family:"Playfair Display";
-        top: 30px;
-        left: 30px;
+        top: 10px;
+        left: 10px;
+        padding: 1rem;
+        font-size: 1.5rem;
     }
     .hero-txt p {
         color: #fff;
