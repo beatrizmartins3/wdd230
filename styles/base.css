@@ -31,14 +31,10 @@
         font-family : "Playfair Display";
     }
     .hero-img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
         width: 1500px;
         height: 300px;
         position: relative;
-        
-    
+      
     }
     
     .hero-txt {
