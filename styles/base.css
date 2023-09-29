@@ -40,7 +40,7 @@ main {
       
 }
     
-.hero-txt {
+.hero {
     background: radial-gradient(#404467, #1E1536);
     border: 1px solid rgba(0,0,0,.75);
     box-shadow: 0 0 3rem #000;
@@ -54,7 +54,7 @@ main {
     padding: 1rem;
     font-size: 1.5rem;
 }
-.hero-txt p {
+.hero p {
     color: #fff;
     width: 120px;
 }

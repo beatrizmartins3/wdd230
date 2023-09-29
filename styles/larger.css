@@ -57,7 +57,7 @@
         grid-column: 2;
         grid-row: 8;
     }
-    .hero-txt {
+    .hero {
         max-width: 100%;
         background: radial-gradient(#404467, #1E1536);
         border: 1px solid rgba(0,0,0,.75);
@@ -72,7 +72,7 @@
         top: 30px;
         left: 30px;
     }
-    .hero-txt p {
+    .hero p {
         color: #fff;
         width: 120px;
     }
