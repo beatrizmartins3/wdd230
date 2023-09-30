@@ -81,7 +81,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
-    background-color : #1E1536;
+    background-color : #a3b6a2;
         /*margin : 1rem auto;*/
     font-family : "Playfair Display";
 }
@@ -156,7 +156,7 @@ nav a:hover {
 }
 p {
     text-align : center;
-    color: #fff;
+    color: #1E1536;
 }
 li a{
     color: #404467;
@@ -171,7 +171,7 @@ li a{
 }
 
 #lastVisit {
-    color: #fff;
+    color: #1E1536;
 }
 h3{
     text-align: center;
@@ -179,7 +179,7 @@ h3{
     font-family: "Playfair Display";
 }
 #estaiada p,#praca p,#potycabana p,#cuia p,#rios p,#ipe p{
-    color: #fff;
+    color: #1E1536;
     font-family: "Raleway";
 }
 #estaiada img,#praca img,#potycabana img,#cuia img,#rios img,#ipe img{
