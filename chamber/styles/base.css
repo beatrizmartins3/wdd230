@@ -187,19 +187,12 @@ h3{
 }
 
 .info{
-    display: block;
-    background-color: #a3b6a2;
     font-family: "Raleway";
     width: 30%;
     padding-left: 5px;
 }
 .info2{
-    display: block;
-    background-color: #a3b6a2;
     font-family: "Raleway";
     width: 30%;
     padding-left: 5px;
-}
-.info p,.info2{
-    color: #1E1536;
 }
