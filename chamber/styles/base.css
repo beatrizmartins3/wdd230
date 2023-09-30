@@ -131,6 +131,9 @@ footer a{
     text-decoration: none;
     color: #ffff00;
 }
+footer p{
+    color: #ffff00;
+}
 footer a:hover{
     color: #ffffff;
 }
@@ -153,6 +156,7 @@ nav a:hover {
 }
 p {
     text-align : center;
+    color: #fff;
 }
 li a{
     color: #404467;
@@ -166,7 +170,7 @@ li a{
     grid-row: 1;
 }
 
-.lastVisit {
+#lastVisit {
     color: #fff;
 }
 h3{
@@ -178,7 +182,7 @@ h3{
     color: #fff;
     font-family: "Raleway";
 }
-#estaiada,#praca,#potycabana,#cuia,#rios,#ipe{
+#estaiada img,#praca img,#potycabana img,#cuia img,#rios img,#ipe img{
     width: 80%;
 }
 
@@ -187,12 +191,12 @@ h3{
     background-color: #a3b6a2;
     color: #1E1536;
     font-family: "Raleway";
-    width: 80px;
+    width: 30%;
 }
 .info2{
     display: block;
     background-color: #a3b6a2;
     color: #1E1536;
     font-family: "Raleway";
-    width: 80px;
+    width: 30%;
 }
