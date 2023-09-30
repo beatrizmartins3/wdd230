@@ -124,12 +124,12 @@ footer {
     font-family : "Playfair Display";
     background-color : #404467;
     color : #ffff00;
+    text-align: center;
 }
 
 footer a{
     text-decoration: none;
     color: #ffff00;
-    text-align: center;
 }
 footer a:hover{
     color: #ffffff;
@@ -170,4 +170,28 @@ li a{
     grid-column: 1;
     grid-row: 2;
 }
+h3{
+    text-align: center;
+    color: #1E1536;
+    font-family: "Playfair Display";
+}
+#estaiada p,#praca p,#potycabana p,#cuia p,#rios p,#ipe p{
+    color: #fff;
+    font-family: "Raleway";
+}
+#estaiada,#praca,#potycabana,#cuia,#rios,#ipe{
+    width: 80%;
+}
 
+.info{
+    display: block;
+    background-color: #a3b6a2;
+    color: #1E1536;
+    font-family: "Raleway";
+}
+.info2{
+    display: block;
+    background-color: #a3b6a2;
+    color: #1E1536;
+    font-family: "Raleway";
+}
