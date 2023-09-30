@@ -167,8 +167,7 @@ li a{
 }
 
 .lastVisit {
-    grid-column: 1;
-    grid-row: 2;
+    color: #fff;
 }
 h3{
     text-align: center;
@@ -188,10 +187,12 @@ h3{
     background-color: #a3b6a2;
     color: #1E1536;
     font-family: "Raleway";
+    width: 80px;
 }
 .info2{
     display: block;
     background-color: #a3b6a2;
     color: #1E1536;
     font-family: "Raleway";
+    width: 80px;
 }
