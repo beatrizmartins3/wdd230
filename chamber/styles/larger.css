@@ -1,5 +1,5 @@
 @media only screen and (min-width: 768px){
-   
+    
     header {
         background-color : #404467;
         color : #ffffff;
@@ -30,13 +30,14 @@
     }
     main {
         display: grid;
-        grid-template-columns : 2fr 2fr 2fr;
-        max-width: 1500px;
-        background-color : #b2ccaf;
-        font-family : "Raleway";
+        grid-template-columns: 1fr 1fr 1fr;
         gap : 1rem;
         margin : 1rem auto;
         padding : 1rem;
+        max-width: 1500px;
+        background-color : #b2ccaf;
+        font-family : "Raleway";
+        
     }
     h1 {
         font-size: 2em;
@@ -51,10 +52,12 @@
     p{
         text-align: center;
     }
-    .sec {
+    
+    .sec,.sec2,.sec3 {
         background-color: #404467;
+      
     }
-    .sec p{
+    .sec p,.sec2 p,.sec3 p {
         color: #ffffff;
     }
     a{
@@ -68,8 +71,12 @@
         padding: 15px;
     }
     .join{
-        background-color: #1E1536;
-        color: #ffff00;
+        color: #1E1536;
+        text-align:center ;
+        display: grid;
+    }
+    a:hover{
+        text-decoration: underline;
     }
     .logo{
         width: 60px;
@@ -84,5 +91,75 @@
         background-color : #404467;
         color : #ffff00;
         font-family : "Playfair Display";
+    }
+    footer a{
+        color: #ffff00;
+    }
+    footer a:hover{
+        color: #ffffff;
+    }
+    /*For Discover Page*/
+    .calendar{
+        width: 150px;
+    }
+    .info{
+        display: block;
+        background-color: #1E1536;
+        color: #ffffff;
+        font-family: "Raleway";
+        width: 150px;
+    }
+    .info2{
+        display: block;
+        background-color: #1E1536;
+        color: #ffffff;
+        font-family: "Raleway";
+        width: 150px;
+    }
+    .sidebar {
+        z-index: 1;
+        left: 10px;
+        overflow-x: hidden;
+        padding: 8px 0;
+        grid-column: 3;
+        grid-row: 1;
+      }
+    h3{
+        text-align: center;
+        color: #1E1536;
+        font-family: "Playfair Display";
+      }
+    #estaiada{
+        grid-column: 2;
+        grid-row: 1;
+
+    }
+    #praca{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    #potycabana{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #cuia{
+        grid-column: 2;
+        grid-row: 3;
+    }
+    #rios{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    #ipe{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #estaiada p,#praca p,#potycabana p,#cuia p,#rios p,#ipe p{
+        color: #1E1536;
+        font-family: "Raleway";
+    }
+    #estaiada:hover,#praca:hover,#potycabana:hover,#cuia:hover,#rios:hover,#ipe:hover{
+        rotate: .05turn;
+	    padding: 1px;
     }
 }

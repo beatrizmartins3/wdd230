@@ -38,3 +38,25 @@ function toggleMenu() {
         showMenu = false;
     }
 }
+
+
+
+
+function setLastVisit() {
+    const dt = new Date();
+    document.getElementById("lastVisit").innerHTML = dt.toLocaleDateString();
+    //localStorage.setItem('lastVisit', dt);
+}
+
+function displayLastVisit() {
+    const lastVisit = localStorage.getItem('lastVisit');
+    if (lastVisit) {
+      document.getElementById('lastVisit').textContent = lastVisit;
+    }
+}
+
+if (!localStorage.getItem('lastVisit')) {
+    setLastVisit();
+} else {
+    displayLastVisit();
+}

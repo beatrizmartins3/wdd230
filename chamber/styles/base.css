@@ -100,11 +100,13 @@ main {
     
 }
 .join{
-    background-color: #1E1536;
-    color: #ffff00;
     text-decoration: none;
-    padding-left: 5px;
-    padding-right: 5px;
+    color: #1E1536;
+    text-align:center ;
+    display: grid;
+}
+a:hover{
+    text-decoration: underline;
 }
 h1 {
     font-size: 2em;
@@ -122,6 +124,15 @@ footer {
     font-family : "Playfair Display";
     background-color : #404467;
     color : #ffff00;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffff00;
+    text-align: center;
+}
+footer a:hover{
+    color: #ffffff;
 }
 body {
     display : block;
@@ -145,5 +156,18 @@ p {
 }
 li a{
     color: #404467;
+}
+.sidebar {
+    z-index: 1;
+    left: 10px;
+    overflow-x: hidden;
+    padding: 8px 0;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.lastVisit {
+    grid-column: 1;
+    grid-row: 2;
 }
 
