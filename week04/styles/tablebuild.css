@@ -1,0 +1,27 @@
+:root{
+    --bord:2px solid #000;
+    --backg:#000;
+    --color:#fff;
+    --back2:#d3d3d3;
+}
+
+table,th,td{
+    border: var(--bord);
+}
+th{
+    background-color: var(--backg);
+    color: var(--color);
+    font-size: larger;
+}
+
+th,td{
+    padding: 7px 15px;
+}
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: .85rem;
+}
+tr:nth-child(2){
+    background-color: var(--back2);
+}
