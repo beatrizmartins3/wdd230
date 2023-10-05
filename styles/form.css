@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:ital@1&display=swap');
+
+:root{
+    --bord1:2px solid #1E1536;
+    --color:#1E1536;
+    --bord:1px solid #1E1536 ;
+}
+
+
+header{
+    background-color : #404467;
+    color : #ffffff;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    padding : 20px;
+    border : solid 1px;
+    max-width : 1500px;
+    font-family : "Playfair Display";
+}
+nav {
+    background-color : #a3b6a2;
+    margin : 0 auto;
+    color : #1E1536;
+    display : flex;
+    justify-content : space-around;
+    width: 100%;
+}
+nav a {
+    display : inline;
+    font-family : "Raleway";
+    color: #1E1536;
+        
+}
+nav a:hover {
+    background-color : #ffff00;
+}
+
+main {
+    display: grid;
+    width : 90%;
+    background-color : #b2ccaf;
+    font-family : "Playfair Display";
+    gap : 1rem;
+    margin : 1rem auto;
+    padding : 1rem;
+    font-family : "Playfair Display";
+}
+footer {
+    max-width : 1500px;
+    background-color : #404467;
+    font-family : "Playfair Display";
+}
+body {
+    display : block;
+    margin : 8px;
+    font-size : 20px;
+}
+img {
+    width : 100px;
+    padding : 20px;
+    
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+footer p {
+    text-align : center;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+form fieldset {
+    margin : 2rem 0;
+    border: var(--bord1);
+    border-radius : 10px;
+    padding : 0.5rem 2%;
+}
+form label{
+    font-size : 1.5rem;
+    color: var(--color);
+    font-family: "Raleway";
+    
+}
+form input{
+    font-size : 1rem;
+}
+form legend{
+    color: var(--color);
+    font-family: "Playfair Display";
+}
+#submitBtn{
+    border: var(--bord);
+    background-color: #404467;
+    color: #ffff00;
+    font-family: "Raleway";
+}
+h2{
+    color: var(--color);
+    font-family: "Playfair Display";
+}
+p{
+    color: var(--color);
+    font-family: "Raleway";
+}
+#message{
+    color: #000080;
+    font-family: "Raleway";
+    padding-left: 5px;
+}
