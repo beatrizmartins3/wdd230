@@ -198,11 +198,9 @@ h3{
 }
 h4{
     text-align: center;
-    grid-column: 2;
     color: #1E1536;
 }
 #date{
-    grid-column: 2;
     text-align: center;
     color: #1E1536;
 }
