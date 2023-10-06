@@ -196,3 +196,48 @@ h3{
     width: 30%;
     padding-left: 5px;
 }
+h4{
+    text-align: center;
+    grid-column: 2;
+    color: #1E1536;
+}
+#date{
+    grid-column: 2;
+    text-align: center;
+    color: #1E1536;
+}
+form h1{
+    font-size: 1rem;
+}
+form fieldset {
+    margin : 2rem 0;
+    border: 2px solid #1E1536;
+    border-radius : 10px;
+    padding : 0.5rem 2%;
+}
+#submitBtn{
+    border: 1px solid #1E1536;
+    background-color: #404467;
+    color: #ffff00;
+    
+}
+#name1,#name2,#tittle,#email,#phone,#bName,#member1,#member2,#member3,#member4{
+    gap : 1rem;
+}
+input{
+    margin: 5px;
+}
+form label{
+    color: #1E1536;
+    font-family: "Raleway";
+}
+#good{
+    grid-column: 3;
+    grid-row: 1;
+}
+#good p{
+    text-align: center;
+}
+#good h2{
+    color: #1E1536;
+}

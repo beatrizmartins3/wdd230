@@ -60,3 +60,24 @@ if (!localStorage.getItem('lastVisit')) {
 } else {
     displayLastVisit();
 }
+
+function setDate() {
+    const theDate = new Date();
+    document.getElementById("date").innerHTML = theDate.toLocaleDateString();
+    //localStorage.setItem('lastVisit', dt);
+}
+
+function displayDate() {
+    const load = localStorage.getItem('date');
+    if (load) {
+      document.getElementById('date').textContent = setDate;
+    }
+}
+
+if (!localStorage.getDate('date')) {
+    setDate();
+} else {
+    displayDate();
+}
+
+
