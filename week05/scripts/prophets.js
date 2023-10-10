@@ -1,4 +1,4 @@
-const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
+const url = "https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json";
 
 const cards=document.querySelector("#cards");
 
@@ -8,25 +8,30 @@ async function getProphetData(url){
     //console.table (data.prophets);
     displayProphets(data.prophets);
 }
-getProphetData();
+getProphetData(url);
 
 const displayProphets=(prophets)=>{
     prophets.forEach((prophet) => {
-        
+        let fullname=document.createElement('h2');
         let card=document.createElement("section");
-        let fullname=document.createElement('__');
+        let card2=document.createElement("section");
         let portrait=document.createElement("img");
 
-        fullname.textContent="${prophet._____} ____________";
+        fullname.textContent=`${prophet.name} ${prophet.lastname} ` ;
+        card.textContent=`Date of Birth: ${prophet.birthdate}`
+        card2.textContent=`Place of Birth: ${prophet.birthplace}`
         portrait.setAttribute("src",prophet.imageurl);
-        portrait.setAttribute("alt","Portrait of ${prophet.____} ______________");
+        portrait.setAttribute("alt","Portrait of ${prophet.name} {prophet.lastname}");
         portrait.setAttribute("loading","lazy");
         portrait.setAttribute("width","340");
         portrait.setAttribute("height","440");
 
-        card.appendChild(_______);
+        
+        card.appendChild(card2);
+        card.appendChild(fullname);
         card.appendChild(portrait);
         cards.appendChild(card);
+        
     });
 }
 
