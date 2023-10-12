@@ -58,7 +58,7 @@ main {
     color: #fff;
     width: 120px;
 }
-#card{
+#cards{
     grid-column: 1;
     grid-row: 14;
 }
