@@ -296,9 +296,14 @@ section {
 .list section {
     display: grid;
     grid-template-columns: 2fr 1fr ;
+    width:100%;
     margin: 0;
     padding: 0.25rem;
 }
+.list section img{
+    width: 150%;
+}
+
 
 .list section > * {
     margin: 0 1rem;
