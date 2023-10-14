@@ -142,14 +142,7 @@ body {
     margin : 8px;
     font-size : 10px;
 }
-section {
-    padding : 1rem;
-    
-}
-img {
-    width : 100px;
-    padding : 20px;
-}
+
 nav a:hover {
     background-color : #ffff00;
     border : #ffffff solid 1px;
