@@ -295,7 +295,7 @@ section {
 
 .list section {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr ;
     margin: 0;
     padding: 0.25rem;
 }
@@ -331,6 +331,4 @@ section p{
     grid-column: 1;
     text-align: center;
 }
-.list section img{
-    width: 85%;
-}
+
