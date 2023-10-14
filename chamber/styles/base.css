@@ -331,6 +331,6 @@ section p{
     grid-column: 1;
     text-align: center;
 }
-section img{
+.list section img{
     width: 85%;
 }
