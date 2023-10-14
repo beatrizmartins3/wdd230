@@ -30,7 +30,7 @@ const displayMembers=(members)=>{
         image.setAttribute("src",member.image);
         image.setAttribute("alt","Portrait of ${member.name} ");
         image.setAttribute("loading","lazy");
-        image.setAttribute("width","350");
+        image.setAttribute("width","300");
         image.setAttribute("height","300");
 
         
@@ -49,15 +49,14 @@ const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
 
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
 gridbutton.addEventListener("click", () => {
-	// example using arrow function
+	
 	display.classList.add("grid");
 	display.classList.remove("list");
 });
 
-listbutton.addEventListener("click", showList); // example using defined function
+listbutton.addEventListener("click", showList); 
 
 function showList() {
 	display.classList.add("list");
