@@ -18,8 +18,8 @@ const displayProphets=(prophets)=>{
         let portrait=document.createElement("img");
 
         fullname.textContent=`${prophet.name} ${prophet.lastname} ` ;
-        card.textContent=`Date of Birth: ${prophet.birthdate}`
-        card2.textContent=`Place of Birth: ${prophet.birthplace}`
+        card.textContent=`Date of Birth: ${prophet.birthdate}`;
+        card2.textContent=`Place of Birth: ${prophet.birthplace}`;
         portrait.setAttribute("src",prophet.imageurl);
         portrait.setAttribute("alt","Portrait of ${prophet.name} {prophet.lastname}");
         portrait.setAttribute("loading","lazy");
