@@ -30,8 +30,8 @@ const displayMembers=(members)=>{
         image.setAttribute("src",member.image);
         image.setAttribute("alt","Portrait of ${member.name} ");
         image.setAttribute("loading","lazy");
-        image.setAttribute("width","200");
-        image.setAttribute("height","200");
+        image.setAttribute("max-width","100%");
+        image.setAttribute("height","75px");
 
         
         sec.appendChild(name);
