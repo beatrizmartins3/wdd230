@@ -330,7 +330,7 @@ section a {
     color: navy;
     letter-spacing: 1.1pt;
     grid-column: 1;
-    grid-row: 8;
+    
 }
 section p{
     grid-column: 1;
