@@ -331,3 +331,6 @@ section p{
     grid-column: 1;
     text-align: center;
 }
+section img{
+    width: 150%;
+}
