@@ -10,10 +10,11 @@ async function apiFetch(){
         if(response.ok){
             const data= await response.json();
             console.log(data);
+            displayResults(data);
         } else{
             throw Error(await response.text());
         }
-    } catch (error){
+        } catch (error){
             console.log(error);
         }
     }
@@ -21,13 +22,13 @@ async function apiFetch(){
 apiFetch();
 
 function displayResults(data){
-    
     currentTemp.innerHTML=`${data.main.temp}&deg;F `;
-    const iconsrc='https://openweathermap.org/img/w/02n.png';
-    let desc=data.weather[0].description;
-    weatherIcon.setAttribute('width','50');
-    weatherIcon.setAttribute('height','50');
-
+    const iCode=data.weather[0].icon;
+    const iconSrc=`https://openweathermap.org/img/w/${iCode}.png`;
+    weatherIcon.setAttribute('src',iconSrc);
+    const desc=data.weather[0].description;
     captionDesc.textContent=`${desc}`;
 
 }
+
+

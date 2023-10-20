@@ -93,6 +93,9 @@
         text-align : center;
         font-family : "Raleway";
     }
+    h4{
+        color: #fff;
+    }
     img {
         width : 100px;
         padding : 20px;
@@ -141,6 +144,7 @@
         cursor: pointer;
         background-color: #fff;
     }
+    
 }
 
 

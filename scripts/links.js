@@ -1,35 +1,60 @@
-const baseURL="https://beatrizmartins3.github.io/wdd230/";
-const linksURL="https://beatrizmartins3.github.io/wdd230/data/links.json";
-const cards=document.querySelector("#cards");
-async function getLinks(linksURL) {
-    const response = await fetch(linksURL);
-    const data = await response.json();
-    displayLinks(data);
-    console.log(data);
-  }
-  
 
+ const linksURL="https://beatrizmartins3.github.io/wdd230/data/links.json";
+ const cards=document.querySelector("#cards");
 
-function displayLinks(weeks){
-    weeks.forEach((week) => {
-        let fullname=document.createElement("h3");
-        let card=document.createElement("section");
-        let card2=document.createElement("ul");
-        let portrait=document.createElement("li");
-        let portrait2=document.createElement("a");
+ async function getLinks(){
+     const response= await fetch (linksURL);
+     const data= await response.json();
+     displayLinks(data.weeks);
+ }
+ getLinks();
+ 
 
-        fullname.textContent= "Learning Activities" ;
-        portrait.textContent=`${week.week}: ${week.title}`;
-        portrait2.setAttribute("href",week.url);
-       
-        card.appendChild(fullname);
-        portrait.appendChild(portrait2)
-        card.appendChild(card2);
-        card.appendChild(portrait);
-        cards.appendChild(card);
+ function displayLinks(allWeeks){
+     allWeeks.forEach(item => {
+        const h4=document.createElement("h4");
+        h4.textContent=`${item.week}`;
+    //  let sec= document.createElement("section");
+        const ul= document.createElement("ul");
+    //  let p= document.createElement("p");
+        
+
+    //  p.textContent= `${week.week}`;
+    //  sec.appendChild(p);
+
+    //  
+    item.links.forEach(link=>{
+        const li= document.createElement("li");
+        li.innerHTML=`<a href="${link.url}"> ${link.title}</a>`;
+
+        ul.appendChild(li);
     });
-    console.log(cards);
-    
+    cards.appendChild(h4);
+    cards.appendChild(ul);
+   });
 }
-getLinks(linksURL);
+//  const displayLinks=(weeks)=>{
+//      weeks.forEach((week) => {
+//          let sec=document.createElement("section");
+//          let ul=document.createElement("ul");
+//          let li=document.createElement("li");
+//          let p=document.createElement("p");
+//          let a=document.createElement("a");
+//          let href=document.createElement("href");
+
+//          p.textContent=` ${week.tittle}`;
+//          a.textContent=` ${week.week}`;
+//          href.textContent=week.url;
+        
+
+//          a.appendChild(href);
+//          p.appendChild(a);
+//          li.appendChild(p);
+//          ul.appendChild(li);
+//          sec.appendChild(ul);
+//          cards.appendChild(sec);
+        
+//      });
+//  }
+
 

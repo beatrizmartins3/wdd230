@@ -82,6 +82,9 @@ h3 {
     font-family : "Raleway";
     background-color : #ffff00;
 }
+h4{
+    color: #fff;
+}
 footer {
     max-width : 1500px;
     font-family : "Playfair Display";
