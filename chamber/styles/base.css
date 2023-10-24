@@ -336,7 +336,7 @@ section p{
     text-align: center;
 }
 .sec2{
-    color:#fff;
+    color:#1E1536;
 }
 
 #banner{
@@ -344,6 +344,10 @@ section p{
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+}
+.calendar{
+    max-width: 100%;
+    height: 75px;
 }
 
 
