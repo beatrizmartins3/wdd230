@@ -15,7 +15,7 @@
             "phone":"616-432-0789",
             "url":"supercars.com",
             "image":"images/supercars.jpg",
-            "mLevel":"Bronze",
+            "mLevel":"Gold",
             "yearOfCreation":2011
         },
         {
@@ -24,7 +24,7 @@
             "phone":"778-511-2341",
             "url":"houseoftreats.com",
             "image":"images/treats.jpg",
-            "mLevel":"Bronze",
+            "mLevel":"Silver",
             "yearOfCreation":1999
         },
         {
@@ -33,7 +33,7 @@
             "phone":"321-908-8764",
             "url":"mcsports.com",
             "image":"images/mc-sports.jpg",
-            "mLevel":"Silver",
+            "mLevel":"Bronze",
             "yearOfCreation":2017
         },
         {
@@ -42,7 +42,7 @@
             "phone":"145-652-9065",
             "url":"mariasfantasy.com",
             "image":"images/fantasy.jpg",
-            "mLevel":"Gold",
+            "mLevel":"Bronze",
             "yearOfCreation":2001
         },
         {

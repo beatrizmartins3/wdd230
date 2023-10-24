@@ -295,6 +295,25 @@
         grid-column: 1;
         text-align: center;
     }
+    .sec2{
+        color:#fff;
+    }
+    #banner{
+        display : block;
+        margin-left : auto;
+        margin-right : auto;
+        width : 400px;
+        padding : 15px;
+    }
+    #sec3{
+        background-color: #404467;
+    }
+    #sec3 p{
+        color: #fff;
+    }
+    #sec3 a{
+        color: #ffff00;
+    }
     
     
     

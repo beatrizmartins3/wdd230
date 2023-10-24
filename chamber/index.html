@@ -36,20 +36,28 @@
         </nav>
     </nav>
     <img class="image" src="images/hero-image.png" alt="hero image">
-    <a class="join" href="#">Join Chamber</a>
+    <a class="join" href="join.html">Join Chamber</a>
+    <img id="banner" src="images/banner.png" alt="banner">
+
     <main>
         <section class="sec">
             <h2>Events</h2>
-            <p>[Events]</p>
+            <p>GiraSol Festival / November 10th</p>
+            <p>Artistic gymnastics course with Jade Barbosa / November 11th</p>
+            <p>1st Scientific Initiation Day / November 22nd</p>
         </section>
         <section class="sec2">
             <h2>Weather</h2>
-            <p>[Weather]</p>
+            <p> <span id="current-temp"></span></p>
+            <figure >
+                <img id="weather-icon" src="" alt="">
+                <figcaption id="figcaption"></figcaption>
+            </figure>
         </section>
-        <section class="sec3">
-            <h2>Advertisements</h2>
-            <p>[advertisements]</p>
-        </section>
+        
+        <article class="grid">
+            <div id="sec3"></div>
+        </article>
            
         
     </main>
@@ -60,5 +68,6 @@
         <p>Last Modified:   <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/index.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

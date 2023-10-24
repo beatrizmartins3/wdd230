@@ -82,7 +82,6 @@ main {
     grid-template-columns: 1fr;
     grid-gap: 1rem;
     background-color : #a3b6a2;
-        /*margin : 1rem auto;*/
     font-family : "Playfair Display";
 }
 
@@ -335,6 +334,16 @@ section a {
 section p{
     grid-column: 1;
     text-align: center;
+}
+.sec2{
+    color:#fff;
+}
+
+#banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 
