@@ -1,5 +1,4 @@
 
-
 var year="2023";
 var thisYear=document.querySelector("#year");
 thisYear.textContent=year;
@@ -81,8 +80,7 @@ quantity++;
 localStorage.setItem("quantity-ls", quantity);
 
 
-
-
+ 
 const currentTemp=document.querySelector('#current-temp');
 const weatherIcon=document.querySelector('#weather-icon');
 const captionDesc=document.querySelector('#figcaption');
@@ -115,6 +113,4 @@ function displayResults(data){
     captionDesc.textContent=`${desc}`;
 
 }
-
-
 
